@@ -12,7 +12,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background-color: rgba(254, 254, 254, 1);
+  background-color: #F5F8FF;
   margin: 0;
   padding: 0px;
   color: #000000;
@@ -41,7 +41,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 .prm-btn {
   background-color: #4e47ff;
@@ -175,9 +175,29 @@ a {
     }
     
   }
-  :hover{
+  
+}
+.card:hover{
     background-color: #4d47ff30;
   }
 }
-}
 
+
+/* Ready to focus better css */
+.focus-better{
+  .focus-better-item{
+    text-align: center;
+    h2{
+      font-size: 50px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    img{
+      border-radius: 10px;
+    }
+  }
+}
